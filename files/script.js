@@ -1,4 +1,8 @@
 
+// for(let i=0;true;i++)
+// {
+//   console.log('hi')
+// }
 var form = document.getElementById("myForm");
 function handleForm(event) { event.preventDefault(); } 
 form.addEventListener('submit', handleForm);

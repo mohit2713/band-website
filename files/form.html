@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>LOGIN</title>
-    <link rel="stylesheet" type="text/css" href="css/styleform.css">
+    <link rel="stylesheet" type="text/css" href="css/styleform.css" />
+  </head>
 
-</head>
-
-<body>
-    <form id='myForm'  class="container" name="myForm" onsubmit=" return validateform()" >
-
-           
-                    <h1 class="text-center">CREATE A NEW ACCOUNT </h1>
-         
-
-                <div class="form">
-                    <div class="flex">
-                        <label>First Name</label>
-                        <input type="text" name="fname" /> 
-                    </div>
-
-                    <div class=flex>
-                        <label>Last Name</label>
-                        <input type="text">
-                    </div>
-
-                    <div class=flex>
-                        <label>Email</label>
-                        <input type="text">
-                    </div>
+  <body>
 
 
-                    <div class=flex>
-                        <label>Password</label>
-                        <input type="password">
-                    </div>
-
-
-                    <div class=flex>
-                        <label>Confirm Password</label>
-                        <input type="password">
-                    </div>
-
-                    <div class=flex>
-                        <button type="submit" class="submit">REGISTER NOW</button>
-                    </div>
-                </div>
+    <div id="formhead">
 
 
 
+      <div  id="formpage">
+        <form
+          id="myForm"
+          class="container"
+          name="myForm"
+          onsubmit="validateform()"
+        >
+          <h1 class="text-center">CREATE A NEW ACCOUNT</h1>
 
+          <div class="form">
+            <div class="flex">
+              <label>First Name</label>
+              <input type="text" name="fname" />
+            </div>
 
-    </form>
-<script src='./script.js'></script>
+            <div class="flex">
+              <label>Last Name</label>
+              <input type="text" />
+            </div>
 
+            <div class="flex">
+              <label>Email</label>
+              <input type="text" />
+            </div>
 
-</body>
+            <div class="flex">
+              <label>Password</label>
+              <input type="password" />
+            </div>
+
+            <div class="flex">
+              <label>Confirm Password</label>
+              <input type="password" />
+            </div>
+
+            <div class="flex">
+              <button type="submit" class="submit">REGISTER NOW</button>
+            </div>
+          </div>
+        </form>
+      </div>
 
 
 
 
 
+      <div class="homebutton">
+        <a href="index.html">
+          <button class="homelink">HOME</button>
+        </a>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+  </body>
 </html>

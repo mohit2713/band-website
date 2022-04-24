@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .body {
-  font-family: sans-serif;
+  font-family: Inter;
 }
 
 .container {
@@ -58,4 +58,57 @@ input {
 }
 
 .grid {
+}
+
+
+.homebutton{
+
+ 
+  height: 6%;
+  width: 50%;
+  margin-top: 30%;
+  margin-right: 20px;
+  
+
+  
+}
+
+.homelink{
+
+  /* background-color: aqua; */
+  margin-left:5px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 540;
+  padding: 5px;
+  border-radius: 9px;
+  color: rgb(26, 146, 238);
+  border: 0px;
+  background-color: rgb(243, 246, 249);
+  transition: all 300ms ;
+  
+}
+
+.homelink:hover{
+
+  background-color: #4b91ce;
+  color:aliceblue;
+}
+
+
+#formhead{
+
+  display: grid;
+
+  grid-template-columns: 90% 10%;
+
+
+}
+
+
+#formpage{
+
+  margin-top: 40px ;
+  margin-left: 10px;
+
 }
