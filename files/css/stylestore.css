@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(28, 101, 157), rgba(204, 226, 232, 0));
+    font-family: "Lora", sans-serif;
+
+}
+
+
+.store-head{
+
+    display: flex;
+    /* justify-content: center; */
+    gap: 700px;
+    background-color: aliceblue;
+   
+    
+    
+   
+}
+
+.store-nav {
+
+   
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10%;
+    margin-right: 30px;
+
+
+
+}
+
+.store-link{
+
+    /* font-family: 'Quicksand',sans-serif; */
+    background-color: aliceblue;
+    font-size: 18px;
+    padding: 4px 8px;
+    padding-top: 6px;
+    border-radius: 3px;
+    color: rgb(26, 146, 238);
+    border: 0px;
+    transition: all 300ms;
+
+    
+}
+
+.store-link:hover{
+    background-color: #3f95e0;
+    color:aliceblue;
+
+}
+
+.nameis-store{
+
+  background-color:aliceblue;
+  font-size: 80px ;
+  color: rgb(28, 101, 157);
+  font-family: 'Inter', sans-serif;
+  margin-left: 20px;
+ 
+     
+
+}
+
+
+.div-store-music{
+
+    background-color: aliceblue;
+    color: rgb(28, 101, 157);
+    font-family: 'Inter',sans-serif;
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.store-albums{
+ 
+
+    display: grid;
+    grid-template-columns:auto auto ;
+    justify-content: space-evenly;
+    color: rgb(28, 101, 157);
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+
+}
+
+.store-merch{
+    display: grid;
+    grid-template-columns:auto auto;
+    justify-content: space-evenly;
+    color: rgb(28, 101, 157);
+    font-family: 'Inter',sans-serif;
+
+}
+
+.cart{
+
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+    
+    
+}
+
+
+.cart-item{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top:20px ;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    grid-gap: 50px;
+    margin-left: 30%;
+}
+
+.cart-purchase{
+margin-left: 45%;
+  
+}
+
+.cart-purchase-button{
+    font-size: 25px;
+    border-radius: 3px;
+    color: rgb(15, 104, 171);
+    background-color: rgba(204, 226, 232, 0.3);
+    padding: 4px;
+    transition: all 300ms;
+    text-decoration: none;
+    border: 0px;
+    margin-top: 30px;
+}
+
+.cart-purchase-button:hover{
+        background-color: #3f95e0;
+        color: #fbfbfb;
+        transform: scale(1.0);
+        
+}
+
+.cart-items-design{
+    text-align: center;
+    margin-top: 5px;
+    
+    
+
+}
+
+.cart-item-price{
+    color: #fbfbfb;
+    margin-right: 20px;
+    
+
+}

@@ -85,13 +85,15 @@ input {
   border: 0px;
   /* background-color: rgb(243, 246, 249); */
   transition: all 300ms ;
+  padding-top: 5px;
+  padding-bottom: 4px;
 
   
 }
 
 .homelink:hover{
 
-  background-color: #2779BF;
+  background-color: #3f95e0;
   color:aliceblue;
 }
 
